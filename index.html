@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Javascript Simon Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<audio id="soundbuttonGre" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+<audio id="soundbuttonRed" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+<audio id="soundbuttonYel" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+<audio id="soundbuttonBlu" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+<audio id="soundbuttonWrong" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
+
+<div class="gameContainer noSelect">
+  <div id="buttonGre" class="fourButton"></div>
+  <div id="buttonRed" class="fourButton"></div>
+  <div id="buttonYel" class="fourButton"></div>
+  <div id="buttonBlu" class="fourButton"></div>
+  <div id="center">
+    <div id="textTitle">Simon</div>
+    <div id="countBox">
+      <div id="countDisplay">
+        <div id="displayText">
+          --
+        </div>
+      </div>
+      <div id="countText">Count</div>
+    </div>
+    <div id="startBox">
+      <div id="startButton"></div>
+      <div id="startText">Start</div>
+    </div>
+    <div id="strictBox">
+      <div id="strictButton""></div>
+      <div id="strictText">Strict</div>
+    </div>
+    <div id="powerBox">
+      <div id="onText">ON</div>
+      <div id="powerSwitch">
+        <div id="buttonOn"></div
+        ><div id="buttonOff"></div
+        ></div>
+      <div id="offText">OFF</div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
